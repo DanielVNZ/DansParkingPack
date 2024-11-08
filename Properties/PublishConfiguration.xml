@@ -1,0 +1,50 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Dans Parking Lots with Parks Pack" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Collection of parking lots with built in parks." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+## Dans Parking Lots with Parks Pack
+* Parks are located under thhe Parks tab in game.
+
+## Added Assets: 
+* Medium Sized Car Park (230 spaces) with a long park through the centre. This park includes 2 food stalls, a gym area and a park area. 
+
+More Parking Lots to come! 
+
+## Credits:
+* Thank you to Konsi for all your help with assets.
+* Thank you to StarQ for assisting with the new asset format and thumbnails.
+* Thank you to TDW for Asset Icon Library. 
+* Thank you to Chamelon for the thumbnail tool.
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Snip1.png" />
+	<Screenshot Value="Properties/Snip2.png" />
+	<Screenshot Value="Properties/Snip3.png" />
+
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.1.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="
+* Initial Release - added first parking lot
+" />
+	<!--ChangeLog>
+	</ChangeLog-->
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
+	<ExternalLink Type="" Url="" />
+</Publish>
